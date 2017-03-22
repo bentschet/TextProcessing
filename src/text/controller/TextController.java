@@ -22,6 +22,7 @@ public class TextController
 	
 	public void playRandom()
 	{
+		// Generates a random play from the computer.
 		int randomPlay = (int)(Math.random() * 3 + 1);
 		if(randomPlay == 1)
 		{
@@ -39,6 +40,6 @@ public class TextController
 	
 	public void readPlay()
 	{
-		
+		// Reads input and converts it to a "play", numbers 1 2 or 3.
 	}
 }
